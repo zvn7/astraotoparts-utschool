@@ -292,7 +292,28 @@ h2 {
 }
 
 .link-news:hover {
-	color: #004a87!important;
+	color: #004a87 !important;
 	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 	border-bottom: 2px solid #004a87;
+}
+
+.img-caption {
+	height: 75vh;
+}
+
+@media only screen and (max-width: 989px) {
+	.carousel-image {
+		height: 50vh;
+	}
+
+	.img-caption {
+		height: 40vh;
+		font-size: 5px;
+	}
+}
+
+@media only screen and (max-width: 760px) {
+	.img-caption {
+		display: none;
+	}
 }
